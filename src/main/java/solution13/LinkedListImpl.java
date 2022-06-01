@@ -7,8 +7,7 @@ public class LinkedListImpl implements ILinkedList {
         return head;
     }
 
-    @Override
-    public Node insertEmptyHeadNode(Integer value) {
+    private Node insertEmptyHeadNode(Integer value) {
         head = new Node();
         head.setValue(value);
         head.setNextNode(null);

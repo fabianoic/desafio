@@ -4,7 +4,7 @@ public class Solution {
     public static void main(String[] args) {
 
         LinkedListImpl linkedList = new LinkedListImpl();
-        linkedList.insertEmptyHeadNode(1);
+        linkedList.insertNodeToPosition(linkedList.getHead(), 1, 0);
         linkedList.insertNodeToPosition(linkedList.getHead(), 10, 1);
         linkedList.insertNodeToPosition(linkedList.getHead(), 5, 10);
         linkedList.insertNodeToPosition(linkedList.getHead(), 22, 1);
